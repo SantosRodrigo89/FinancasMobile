@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B",
+    "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+  background-image: url("https://s3.amazonaws.com/wpfiap/wp-content/uploads/2020/04/13-DATA-ENGINEERING-JOURNEY.jpg");
+  z-index: -1;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  width: 320px;
+  height: 568px;
+  margin: auto;
+}
+
+.subContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1d89e4;
+  width: 320px;
+  position: relative;
+}
+
+.logoStyle {
+  margin-top: 300px;
+  border-radius: 56px;
+  width: 203px;
+  height: 181px;
+  margin: 12px;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40%;
+}
+
+.btn {
+  margin-bottom: 12px;
+  height: 52px;
+  width: 268px;
+  background-color: #1a79cb;
+}
