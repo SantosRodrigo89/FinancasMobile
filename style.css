@@ -7,7 +7,13 @@
 }
 
 body {
-  background-image: url("https://s3.amazonaws.com/wpfiap/wp-content/uploads/2020/04/13-DATA-ENGINEERING-JOURNEY.jpg");
+  background-image: linear-gradient(
+      to right,
+      rgba(45, 202, 207, 0.3),
+      rgb(72, 38, 186, 0.6)
+    ),
+    url("https://s3.amazonaws.com/wpfiap/wp-content/uploads/2020/04/13-DATA-ENGINEERING-JOURNEY.jpg");
+  background-size: cover;
   z-index: -1;
 }
 
