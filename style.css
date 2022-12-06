@@ -25,6 +25,14 @@ body {
   width: 320px;
   height: 568px;
   margin: auto;
+  margin-top: 100px;
+  border-radius: 2px;
+}
+
+.topBar {
+  height: 32px;
+  background-color:#1a79cb;
+  width: 100%;
 }
 
 .subContainer {
@@ -57,11 +65,42 @@ body {
   background-color: #1a79cb;
 }
 
+.topMenuContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  color: #f5f3f3;
+}
+
+.hamburguerMenu:hover{
+ color: #1a79cb;
+}
+
+.informationsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+  margin-top: 12px;
+  margin-bottom: 60px;
+  color: #f5f3f3;
+}
+
+.infirmationContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
 .graficCard {
   background-color: #f5f3f3;
   width: 288px;
   height: 206px;
   border-radius: 10px;
-  margin: 8px;
+  margin: 12px;
+  margin-top: 14px;
   padding: 24px;
 }
+
+
